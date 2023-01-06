@@ -129,6 +129,8 @@ a{
     text-transform: capitalize;
     display: inline-block;
     margin-top: 27px;
+    display: inline-block;
+    margin-bottom: 130px;
 }
 .donate-item{
     padding: 44px 23px;
@@ -166,15 +168,18 @@ a{
     padding-top: 27px;
     padding-bottom: 15px;
 }
-.donate-plan .plan-item p{
+ .plan-item p{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 16px;
     color:  #707070;
+    line-height: 24px;
+    padding-right: 11px;
     
 }
 .plan-wrapper{
     display: flex;
+    margin-top: 45px;
 }
 .plan-item .plan-icon img{
     width: 58px;
