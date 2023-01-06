@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* common css End Here */
+/* banner part start Here */
+#banner{
+    background: url('../images/donate-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+   padding: 174px 0;
+}
+.banner-overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%); 
+}
+.banner-contain{
+    text-align: center;
+}
+.banner-contain h1{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+    padding-bottom: 20px;
+    padding:0 160px;
+}
+.banner-contain p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 255px;
+    padding-bottom: 33px;
+}
+.banner-contain a{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 16px 12px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.common-header{
+    text-align: center;
+}
+.common-header h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    text-transform: capitalize;
+}
+#donate{
+    margin-top: 130px;
+}
+.common-header p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #121212;
+    line-height: 28px;
+    padding: 0 220px;
+    padding-top: 10px;
+}
