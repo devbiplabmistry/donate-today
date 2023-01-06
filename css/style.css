@@ -92,27 +92,19 @@ a{
     padding: 0 220px;
     padding-top: 10px;
 }
-.donate-amount .donate-item{
-    padding: 22px 43px;
-    background-color: #FAFAFA;
-    margin-right: 22px;
-    margin-top: 45px;
 
-}
-.donate-amount .donate-item:last-child{
-    margin-right: 0px;
-
-}
 .donate-amount .donate-item h4{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 30px;
     color: #707070;
+    transition: all linear .3s;
 
 }
 .donate-amount{
     display: flex;
   justify-content: center;
+  margin-top: 40px;
 
 }
 .other-amount{
@@ -137,4 +129,60 @@ a{
     text-transform: capitalize;
     display: inline-block;
     margin-top: 27px;
+}
+.donate-item{
+    padding: 44px 23px;
+  background-color: #FAFAFA;
+    transition: all linear .3s;
+    border-radius: 5px;
+    margin-right: 22px;
+}
+.donate-item:hover{
+    background-color:  #FFEEEE;
+    color: #FF5959;
+}
+.donate-item:hover h4{
+    color: #FF5959;
+}
+.donate-item:last-child{
+    margin-right: 0px;
+}
+ .plan-item{
+    padding-top: 63px;
+    padding-left: 23px;
+    padding-bottom: 54px;
+    border-radius: 5px;
+    background-color: rgba(79, 157, 166, 0.1);
+    margin-right: 24px;
+}
+ .plan-item:last-child{
+    margin-right: 0px;
+}
+ .plan-item h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    padding-top: 27px;
+    padding-bottom: 15px;
+}
+.donate-plan .plan-item p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:  #707070;
+    
+}
+.plan-wrapper{
+    display: flex;
+}
+.plan-item .plan-icon img{
+    width: 58px;
+    height: 49px;
+}
+.two-plan{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.three-plan{
+   background-color: #FFF4D6;
 }
