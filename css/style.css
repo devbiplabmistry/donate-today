@@ -186,3 +186,115 @@ a{
 .three-plan{
    background-color: #FFF4D6;
 }
+.left-contribute-item h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color:  #121212;
+    padding-right: 115px;
+    line-height: 54px;
+    margin-bottom: 10px;
+}
+.left-contribute-item a{
+    padding: 16px 12px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+.innere-para{
+    margin-top:8px;
+    margin-bottom: 35px;
+}
+.how-to-contribute{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-top: 130px;
+}
+.left-contribute-item p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    padding-right:  190px;
+}
+.how-to-contribute-bottom{
+    margin-top: 100px;
+}
+.bottom-contribute {
+    display: flex;
+    justify-content: space-between;
+}
+.right-contribute{
+    border-radius: 5px;
+}
+.contribute-content{
+    margin-left: 94px;
+}
+.form-filed{
+    background-color: #FFF4D6;
+    margin: 0 auto;
+    width: 800px;
+    height: 160px;
+    padding-top: 76px;
+    padding-bottom: 126px;
+    padding-left:190px ;
+    padding-right: 190px;
+    position: relative;
+    margin-top: 45px;
+}
+.form-filed button{
+   position: absolute;
+   right: 188px;
+   top: 75px;
+   padding: 15px 42px;
+   background-color: #FF5959;
+   border: 0;
+   border-radius: 5px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   color: #fff;
+   text-transform: capitalize;
+}
+.form-filed input{
+    border: 0;
+    padding-top: 14px;
+    padding-left: 17px;
+    padding-bottom: 14px;
+    padding-right: 218px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #AA9F9F;
+    background-color:  #D9D9D9;
+}
+#footer{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+#bottom{
+    background-color: #0B0D17;
+    padding: 43px;
+}
+.humble-content{
+    text-align: center;
+}
+.humble-content h4{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+}
+.humble-content p{
+    color: #D9DBE1;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 24px;
+}
