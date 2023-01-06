@@ -92,3 +92,49 @@ a{
     padding: 0 220px;
     padding-top: 10px;
 }
+.donate-amount .donate-item{
+    padding: 22px 43px;
+    background-color: #FAFAFA;
+    margin-right: 22px;
+    margin-top: 45px;
+
+}
+.donate-amount .donate-item:last-child{
+    margin-right: 0px;
+
+}
+.donate-amount .donate-item h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+
+}
+.donate-amount{
+    display: flex;
+  justify-content: center;
+
+}
+.other-amount{
+    margin: 0 auto;
+    text-align: center;
+}
+.other-amount h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.other-amount a{
+    padding: 12px 16px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 27px;
+}
